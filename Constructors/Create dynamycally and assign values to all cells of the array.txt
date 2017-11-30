@@ -1,0 +1,18 @@
+IntArray(int);			//header
+
+
+
+
+IntArray::IntArray(int s)	/.cpp
+{
+arraySize = s;
+aptr = new int [s];
+for (int count = 0; count < size; count++)
+*(aptr + count) = 0;
+}
+
+
+When an instance of the class is defined, the number of elements the array is to have is
+passed into the constructor’s parameter s. This value is copied to the arraySize member,
+then used to dynamically allocate enough memory for the array. The constructor’s final
+step is to store zeros in all of the array’s elements:

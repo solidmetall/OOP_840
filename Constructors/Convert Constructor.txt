@@ -1,0 +1,28 @@
+Person(char*); 		//converts "p1("Genghis")" to "Person"   (creates p1 basically)   -convert constructor header
+			//its a char * array
+
+
+
+
+
+//.cpp
+
+
+Person::Person(char* n) //converts "p1("Genghis")" to "Person"  (creates p1 basically)    -convert constructor
+{
+   name = new char[80];
+   strcpy(name, n);
+}
+
+
+
+
+
+
+
+
+//test.cpp
+
+
+//call
+Person p1("Genghis");

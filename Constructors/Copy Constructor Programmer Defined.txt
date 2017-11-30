@@ -1,0 +1,13 @@
+Date(const Date&);	//header
+
+
+
+
+//.cpp
+
+Date::Date(const Date& b)
+{
+	month=b.month;
+	day=b.day;
+	year=b.year;
+}

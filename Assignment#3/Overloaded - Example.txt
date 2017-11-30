@@ -1,0 +1,13 @@
+  temp.month = date1.month - date2.month;
+    temp.day = date1.day - date2.day;
+    temp.year = date1.year - date2.year;
+
+    if (temp.day < 0)
+    {
+        //add 30 to temp.day
+        //subtract 1 from temp.month
+    }
+    if (temp.month < 0)
+    {
+        //analogous code goes here
+    }
